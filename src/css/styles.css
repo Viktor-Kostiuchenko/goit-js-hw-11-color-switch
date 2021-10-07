@@ -1,0 +1,21 @@
+button {
+  font-size: 40px;
+  padding: 20px;
+  background-color: #242424;
+  color: cadetblue;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 200ms ease-in-out, color 200ms ease-in-out;
+}
+
+button:hover {
+  background-color: cadetblue;
+  color: #242424;
+  border-color: #242424;
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
